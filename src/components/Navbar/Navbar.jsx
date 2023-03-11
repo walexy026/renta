@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav>
@@ -12,6 +13,8 @@ const Navbar = () => {
           <button>Get Started</button>
         </li>
       </ul>
+      <FaBars className="fabars" />
+      <FaTimes className="faTimes" />
     </nav>
   );
 };

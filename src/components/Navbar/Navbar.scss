@@ -12,16 +12,31 @@ nav {
     line-height: 29px;
     color: #0b1757;
     cursor: pointer;
+    @media only screen and (max-width: 768px) {
+      transform: translateX(-90px);
+    }
+  }
+  .fabars,
+  .faTimes {
+    position: absolute;
+    right: 2rem;
+    transition: 0.2s ease-in-out;
+    color: red;
+    font-size: 2rem;
+    display: none;
+    @media screen and (max-width: 786px) {
+      display: block;
+    }
   }
 }
 ul {
   text-decoration: none;
+  text-align: center;
   display: flex;
   align-items: center;
   list-style: none;
-  //   gap: 4rem;
-  //   padding: 1rem;
-  //   width: 50%;
+  //   display: none;
+
   li {
     font-style: normal;
     font-weight: 600;
@@ -32,6 +47,13 @@ ul {
     position: relative;
     padding-right: 3rem;
     transition: 0.2s ease-in-out;
+    @media only screen and (max-width: 900px) {
+      padding-right: 2rem;
+    }
+    @media only screen and (max-width: 900px) {
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+    }
     &:hover {
       color: #0b1757;
     }
@@ -43,24 +65,26 @@ ul {
       position: absolute;
       bottom: -10px;
       left: 10px;
+      @media only screen and (max-width: 768px) {
+        background-color: #0b1757;
+        left: 44%;
+        bottom: 15px;
+      }
     }
     &.active::after {
       content: " ";
-      width: 40px;
+      width: 80px;
       height: 5px;
       background-color: red;
       position: absolute;
       bottom: -10px;
-      left: 10px;
+      left: 1px;
+      @media only screen and (max-width: 768px) {
+        background-color: #0b1757;
+        left: 42.5%;
+        bottom: 15px;
+      }
     }
-    // &:active {
-    //   content: " ";
-    //   width: 20px;
-    //   height: 5px;
-    //   background-color: red;
-    //   position: absolute;
-    //   bottom: -20px;
-    // }
     button {
       font-weight: 600;
       font-size: 17px;
@@ -69,6 +93,10 @@ ul {
       background: #0b1757;
       border-radius: 10px;
       padding: 1rem 2rem;
+      @media only screen and (max-width: 900px) {
+        padding: 0.5rem 1rem;
+        font-size: 13px;
+      }
       &:hover {
         color: #0b1757;
         background-color: #f2f1e6;
@@ -76,4 +104,15 @@ ul {
       }
     }
   }
+}
+
+.m-ul {
+  position: absolute;
+  top: 2rem;
+  background-color: aqua;
+  right: 10px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
 }
