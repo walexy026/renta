@@ -1,0 +1,21 @@
+.heroSection {
+  background-image: url(../../Assets/hero2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  //   background: #010517;
+  //   opacity: 0.6;
+  .circleText {
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    img {
+      transform: translate(13%, 13%);
+    }
+  }
+}

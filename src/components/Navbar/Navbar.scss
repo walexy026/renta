@@ -4,7 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   //   width: 100%;
-  padding: 16px 120px;
+  padding: 10px 110px;
   .logo {
     font-style: normal;
     font-weight: 800;
@@ -21,7 +21,7 @@ nav {
     position: absolute;
     right: 2rem;
     transition: 0.2s ease-in-out;
-    color: red;
+    color: #0b1757;
     font-size: 2rem;
     display: none;
     @media screen and (max-width: 786px) {
