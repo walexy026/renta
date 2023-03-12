@@ -8,7 +8,7 @@
   //   opacity: 0.6;
   .circleText {
     position: absolute;
-    top: 12rem;
+    top: 5.4rem;
     left: 2rem;
     background: rgba(255, 255, 255, 0.2);
     width: 90px;
@@ -16,6 +16,53 @@
     border-radius: 50%;
     img {
       transform: translate(13%, 13%);
+    }
+  }
+  .heroText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(250px);
+    h1 {
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 18px;
+      color: #fafafa;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 14px;
+      color: #d9d9d9;
+      //   margin: 0;
+    }
+    form {
+      background: #f9f9f9;
+      border-radius: 10px;
+      height: 4rem;
+      max-width: 30rem;
+      padding: 1rem 1rem 2rem 1rem;
+      //   display: flex;
+      //   flex-direction: column;
+      label {
+        display: block;
+        font-size: 12px;
+      }
+      input {
+        border: 1px solid #b3b3b3;
+        border-radius: 10px;
+        width: 25rem;
+        height: 2rem;
+      }
+      button {
+        background: #0b1757;
+        border-radius: 10px;
+        color: #fafafa;
+        padding: 0.5rem;
+      }
     }
   }
 }
