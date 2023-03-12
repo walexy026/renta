@@ -1,6 +1,6 @@
 import React from "react";
 import "./Stats.scss";
-import hero from "../../Assets/heroImage.svg";
+import hero from "../../Assets/herro2.svg";
 const Stats = () => {
   return (
     <div className="stats">
@@ -26,7 +26,7 @@ const Stats = () => {
         </div>
       </div>
       <div className="statsImg">
-        <img src={hero} alt="hero" height="220px" />
+        <img src={hero} alt="hero" height="400px" />
       </div>
     </div>
   );
