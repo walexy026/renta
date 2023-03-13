@@ -1,3 +1,4 @@
+import Faq from "./components/Faq/Faq";
 import Footer from "./components/Footer/Footer";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <Partner />
       <Stats />
+      <Faq />
       <Playstore />
       <Footer />
     </div>
