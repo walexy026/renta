@@ -1,6 +1,37 @@
 .playstore {
+  //   margin: 2rem 18rem;
   background: #0b1757;
   border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   //   height: 250px;
   //   width: 250px;
+  .playText {
+    h5 {
+      text-align: center;
+      color: #ffffff;
+    }
+    h6 {
+      color: #ffad0e;
+    }
+    .store {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      .gStore,
+      .aStore {
+        background: #ffffff;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        padding: 0.6rem;
+        p {
+          width: 7rem;
+          margin: 0;
+        }
+      }
+    }
+  }
 }

@@ -8,19 +8,21 @@ const Playstore = () => {
     <div>
       <div className="playstore">
         <img src={playStore} alt="playStore" />
-        <div>
+        <div className="playText">
           <h5>Download the Renta app</h5>
           <h6>
             Download the Renta mobile app to begin your seamless journey and
             find your perfect property
           </h6>
-          <div>
-            <BsApple fontSize="2rem" />
-            <p>Available on App store</p>
-          </div>
-          <div>
-            <SiGoogleplay fontSize="2rem" />
-            <p>Available on Play store</p>
+          <div className="store">
+            <div className="gStore">
+              <BsApple fontSize="2rem" />
+              <p>Available on App store</p>
+            </div>
+            <div className="aStore">
+              <SiGoogleplay fontSize="2rem" />
+              <p>Available on Play store</p>
+            </div>
           </div>
         </div>
       </div>

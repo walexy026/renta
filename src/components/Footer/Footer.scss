@@ -1,0 +1,35 @@
+footer {
+  margin-top: 2rem;
+  background: #0b1757;
+  color: #ebebeb;
+  display: flex;
+  justify-content: space-evenly;
+  .row {
+    .brand {
+      text-align: center;
+    }
+    .social-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        padding-right: 1rem;
+      }
+    }
+    h3 {
+      padding-left: 3rem;
+    }
+    .list {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      align-items: center;
+      color: #ebebeb !important;
+    }
+  }
+}
+.lowerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
