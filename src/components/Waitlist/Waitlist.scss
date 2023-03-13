@@ -5,12 +5,35 @@
   .centerForm {
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    @media only screen and (max-width: 990px) {
+      left: 20%;
+    }
+    h2 {
+      margin: 0;
+      color: #ffad0e;
+    }
+    p {
+      margin: 0;
+      color: #ffffff;
+    }
   }
   .waitList {
+    background: #0b1757;
+    // @media only screen and (min-width: 768px) {
+    //   display: none;
+    // }
     img {
       width: 100%;
       height: auto;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
     }
     // background-image: url(../../Assets/bgwaitlist.svg);
     // background-repeat: no-repeat;

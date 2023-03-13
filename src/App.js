@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <Partner />
       <Stats />

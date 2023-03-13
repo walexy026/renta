@@ -1,0 +1,18 @@
+//  @import "../../path/to/node_modules/react-tabs/style/react-tabs.scss";
+.react-tabs__tab--selected {
+  background-color: transparent;
+  color: #0b1757;
+  border-color: none;
+  border-bottom: 2px solid #0b1757 !important;
+}
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.react-tabs__tab {
+  border-bottom: 2px solid #0b1757;
+}
