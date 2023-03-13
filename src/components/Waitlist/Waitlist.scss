@@ -1,0 +1,50 @@
+.wrapperWaitlist {
+  display: grid;
+  place-items: center;
+  position: relative;
+  .centerForm {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+  }
+  .waitList {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    // background-image: url(../../Assets/bgwaitlist.svg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // height: 456px;
+    // display: grid;
+    // place-items: center;
+  }
+  .wrapperForm {
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: #fafafa;
+    width: 19rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.7rem;
+    position: relative;
+    .mailIcon {
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      font-size: 1.3rem;
+    }
+    .waitlistForm {
+      border: none;
+      padding: 5px 20px;
+      &:focus {
+        outline: none;
+      }
+    }
+    .waitListBtn {
+      background: #0b1757;
+      border-radius: 10px;
+      color: #fafafa;
+      padding: 0.5rem 0.8rem;
+      margin-left: 2.5rem;
+    }
+  }
+}
