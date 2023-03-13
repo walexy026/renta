@@ -31,11 +31,11 @@ const Footer = () => {
   ];
 
   return (
-    <div>
+    <div className="footerItems">
       <footer>
         <div className="row">
           <div className="brand">
-            <h3>RENTA</h3>
+            <h2>RENTA</h2>
           </div>
           <address className="description">
             Discover perfect homes and lands at affordable prices.
@@ -50,7 +50,11 @@ const Footer = () => {
           <h3>Company</h3>
           <ul className="list">
             {servicesLinks.map((link) => {
-              return <li key={link}>{link}</li>;
+              return (
+                <li className="listLink" key={link}>
+                  {link}
+                </li>
+              );
             })}
           </ul>
         </div>
@@ -58,7 +62,11 @@ const Footer = () => {
           <h3>Useful Links</h3>
           <ul className="list">
             {companyLinks.map((link) => {
-              return <li key={link}>{link}</li>;
+              return (
+                <li className="listLink" key={link}>
+                  {link}
+                </li>
+              );
             })}
           </ul>
         </div>
@@ -66,7 +74,11 @@ const Footer = () => {
           <h3>Support</h3>
           <ul className="list">
             {supportLinks.map((link) => {
-              return <li key={link}>{link}</li>;
+              return (
+                <li className="listLink" key={link}>
+                  {link}
+                </li>
+              );
             })}
           </ul>
         </div>

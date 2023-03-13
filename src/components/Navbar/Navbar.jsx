@@ -23,9 +23,9 @@ const Navbar = () => {
       {toggleMenu && (
         <ul>
           <li className="active">Insurance</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>
+          <li className="navlinks" >Blog</li>
+          <li className="navlinks">About</li>
+          <li className="navlinks">
             <button>Get Started</button>
           </li>
         </ul>

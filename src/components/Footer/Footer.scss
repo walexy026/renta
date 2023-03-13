@@ -1,17 +1,28 @@
+.footerItems {
+  background: #0b1757;
+  hr {
+    width: 80%;
+    color: red;
+  }
+}
 footer {
   margin-top: 2rem;
-  background: #0b1757;
   color: #ebebeb;
   display: flex;
   justify-content: space-evenly;
   .row {
     .brand {
-      text-align: center;
+      text-align: start;
+      padding-bottom: 1rem;
+    }
+    .description {
+      max-width: 18rem;
+      padding-bottom: 1rem;
     }
     .social-icons {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       .icon {
         padding-right: 1rem;
       }
@@ -24,7 +35,11 @@ footer {
       flex-direction: column;
       align-self: center;
       align-items: center;
-      color: #ebebeb !important;
+      color: #ebebeb;
+      cursor: pointer;
+      .listLink {
+        padding-bottom: 1rem;
+      }
     }
   }
 }
@@ -32,4 +47,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: #ebebeb;
+  padding-bottom: 2rem;
 }
