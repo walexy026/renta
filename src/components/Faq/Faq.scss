@@ -1,0 +1,49 @@
+.faqs {
+  background: #fafafa;
+  h2,
+  p {
+    text-align: center;
+  }
+}
+.faq {
+  margin: 2rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 2rem;
+  //   background-color: #fff;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 2rem 2rem;
+  }
+  //   .topche {
+  //   }
+
+  .wrapper,
+  .wrapper2,
+  .wrapper3,
+  .wrapper4,
+  .wrapper5,
+  .wrapper6 {
+    position: relative;
+  }
+  .che,
+  .che2,
+  .che3,
+  .che4,
+  .che5,
+  .che6 {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+  }
+  p {
+    color: #1e1e1e;
+  }
+  .Collapsible {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+  }
+}

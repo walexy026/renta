@@ -21,6 +21,10 @@
     width: 16rem;
     line-height: 30px;
     color: #1e1e1e;
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+      width: 10rem;
+    }
   }
   p {
     font-style: normal;
@@ -29,6 +33,10 @@
     width: 24rem;
     line-height: 19px;
     color: #4c4c4c;
+    @media only screen and (max-width: 768px) {
+      font-size: 15px;
+      width: 15rem;
+    }
   }
   .statsNumber {
     display: flex;
@@ -39,6 +47,9 @@
       padding-right: 2rem;
       flex-direction: column;
       justify-content: center;
+      @media only screen and (max-width: 768px) {
+        padding-right: 0.7rem;
+      }
     }
     figure {
       font-style: normal;
@@ -48,6 +59,9 @@
       color: #ffad0e;
       margin-bottom: 1rem;
       margin-inline-start: 0;
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+      }
     }
     h6 {
       font-style: normal;
@@ -56,6 +70,9 @@
       line-height: 10px;
       color: #8a8a8a;
       margin: 0;
+      @media only screen and (max-width: 768px) {
+        font-size: 10px;
+      }
     }
   }
   .statsImg {
@@ -78,11 +95,15 @@
 .features {
   // background-color: #4c4c4c;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 2rem;
-  gap: 1rem;
+  // margin: 0 2rem;
+  // gap: 5rem;
   background: #fafafa;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
   .featureItems {
     background: #ffffff;
     border-radius: 10px;
@@ -90,7 +111,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    // margin: 0 2rem;
+
+    padding: 1rem 3rem;
     cursor: pointer;
     &:hover {
       background-color: #8a8a8a;

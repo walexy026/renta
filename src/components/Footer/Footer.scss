@@ -33,7 +33,7 @@ footer {
       }
     }
     h3 {
-      padding-left: 2.5rem;
+      padding-left: 0.1rem;
       @media only screen and (max-width: 768px) {
         padding-left: 0.1rem;
       }
@@ -44,6 +44,7 @@ footer {
       align-items: flex-start;
       color: #ebebeb;
       cursor: pointer;
+      padding-left: 0.1rem;
       list-style: none;
       .listLink {
         padding-bottom: 1rem;
@@ -63,5 +64,6 @@ footer {
     align-items: flex-start;
     padding-left: 1rem;
     gap: 1rem;
+    margin: 0.2rem 0.1rem;
   }
 }

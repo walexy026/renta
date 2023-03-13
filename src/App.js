@@ -16,7 +16,7 @@ function App() {
       <Partner />
       <Stats />
       <Faq />
-      <Playstore />
+      {/* <Playstore /> */}
       <Footer />
     </div>
   );
