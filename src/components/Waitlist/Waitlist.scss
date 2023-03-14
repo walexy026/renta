@@ -79,10 +79,16 @@
       left: 5px;
       top: 13px;
       font-size: 1.3rem;
+      @media only screen and (max-width: 768px) {
+        left: 0px;
+      }
     }
     .waitlistForm {
       border: none;
       padding: 5px 20px;
+      @media only screen and (max-width: 768px) {
+        padding: 5px 10px;
+      }
       &:focus {
         outline: none;
         // 84704266801

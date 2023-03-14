@@ -25,7 +25,7 @@ const HeroTab = () => {
               />
               <button>
                 {" "}
-                <CiSearch /> Search
+                <CiSearch fontSize="1rem" /> Search
               </button>
             </form>
           </div>

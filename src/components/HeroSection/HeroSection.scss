@@ -15,7 +15,7 @@
     height: 90px;
     border-radius: 50%;
     @media only screen and (max-width: 500px) {
-      top: 2.4rem;
+      top: 5.4rem;
     }
     img {
       transform: translate(13%, 13%);
@@ -63,7 +63,7 @@
     form {
       background: #f9f9f9;
       border-radius: 10px;
-      height: 4rem;
+      height: 6rem;
       max-width: 30rem;
       padding: 1rem 1rem 2rem 1rem;
       //   display: flex;
@@ -81,8 +81,8 @@
       input {
         border: 1px solid #b3b3b3;
         border-radius: 10px;
-        width: 24rem;
-        height: 2rem;
+        width: 22rem;
+        height: 2.3rem;
         @media only screen and (max-width: 768px) {
           max-width: 17rem;
         }
@@ -97,7 +97,7 @@
         padding: 0.5rem;
         @media only screen and (max-width: 768px) {
           margin-top: 0.5rem;
-          width: 17rem;
+          width: 16rem;
         }
         @media only screen and (max-width: 500px) {
           margin-top: 0.5rem;

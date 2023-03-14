@@ -1,33 +1,19 @@
 import React from "react";
 import "./Footer.scss";
-import { AiFillFacebook } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
-import { MdEmail, MdPhoneInTalk } from "react-icons/md";
-import { IoLocationSharp } from "react-icons/io5";
+import { FaTwitter, FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   const companyLinks = ["Company", "About", "Become agent"];
   const servicesLinks = ["Insurance", "Blog", "Zeenah Pay", "Useful Links"];
   const supportLinks = ["Support", "Knowledge base", "Contact us"];
-  //   const contactInfo = [
-  //     {
-  //       icon: <MdEmail />,
-  //       value: "walexy@gmail.com",
-  //     },
-  //     {
-  //       icon: <MdPhoneInTalk />,
-  //       value: "+(234) 81-3136-6504",
-  //     },
-  //     {
-  //       icon: <IoLocationSharp />,
-  //       value: "Abeokuta, Ogun-State",
-  //     },
-  //   ];
+
   const socialIcons = [
-    <AiFillFacebook />,
-    <FaTwitterSquare />,
+    <BsFacebook />,
+    <FaTwitter />,
     <BsLinkedin />,
-    <FaInstagramSquare />,
+    <FaInstagram />,
   ];
 
   return (
