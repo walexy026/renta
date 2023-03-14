@@ -1,25 +1,39 @@
+.wrapperPlaystore {
+  display: grid;
+  place-items: center;
+}
 .playstore {
-  //   margin: 2rem 18rem;
+  // margin: 2rem 18rem;
+  // margin-left: 15rem;
+  padding: 1rem 7rem;
   background: #0b1757;
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   //   height: 250px;
-  //   width: 250px;
+  // width: 1201px;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
   .playText {
-    h5 {
+    h2 {
       text-align: center;
-      color: #ffffff;
+      color: #ffad0e;
     }
     h6 {
-      color: #ffad0e;
+      color: #ffffff;
+      text-align: center;
     }
     .store {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 2rem;
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+      }
       .gStore,
       .aStore {
         background: #ffffff;

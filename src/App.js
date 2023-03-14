@@ -18,7 +18,7 @@ function App() {
       <Stats />
       <Faq />
       <Waitlist />
-      {/* <Playstore /> */}
+      <Playstore />
       <Footer />
     </div>
   );

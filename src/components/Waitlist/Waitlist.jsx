@@ -6,6 +6,7 @@ const Waitlist = () => {
   return (
     <div className="wrapperWaitlist">
       <div className="waitList">
+        <b>h</b>
         <img src={waitlist} alt="waitlist" />
         <div className="centerForm">
           <h2>Join Waitlist</h2>
